@@ -38,7 +38,7 @@ class EFDWebServices{
                 return
             }
             guard let d = data else {
-                completion(NSError(domain: "com.Cyberacy.CStats", code: 2, userInfo: [
+                completion(NSError(domain: "com.EFD", code: 2, userInfo: [
                     NSLocalizedFailureReasonErrorKey: "No data found"
                 ]), nil)
                 return
